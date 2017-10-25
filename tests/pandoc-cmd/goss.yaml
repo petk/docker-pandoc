@@ -2,6 +2,6 @@ command:
   pandoc:
     exit-status: 0
     stdout:
-    - ''
+    - 'pandoc 1.19.2.1'
     stderr: []
     timeout: 10000

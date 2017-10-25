@@ -8,12 +8,12 @@ run() {
   echo "testing $1"
   echo "======================="
   pushd $1 > /dev/null
-  ./test || ((i++))
+  ./test.sh || ((i++))
   popd > /dev/null
 }
 
 if [ "$tests" = "all" ]; then
-  for x in */;do
+  for x in tests/*/;do
     run $x
   done
 else

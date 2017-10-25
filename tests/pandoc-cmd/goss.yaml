@@ -1,5 +1,10 @@
-command:
+package:
   pandoc:
+    installed: true
+    versions:
+    - 1.19.2.1-1
+command:
+  pandoc -v:
     exit-status: 0
     stdout:
     - 'pandoc 1.19.2.1'

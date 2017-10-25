@@ -11,10 +11,6 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{yml,sh}]
-indent_style = space
-indent_size = 2
-
-[hooks/build]
+[{*.yml,hooks/build,tests/test-all,tests/**/test}]
 indent_style = space
 indent_size = 2

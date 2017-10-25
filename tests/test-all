@@ -8,7 +8,7 @@ run() {
   echo "testing $1"
   echo "======================="
   pushd $1 > /dev/null
-  ./test.sh || ((i++))
+  ./test || ((i++))
   popd > /dev/null
 }
 

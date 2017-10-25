@@ -1,6 +1,6 @@
 # Pandoc Docker Image
 
-[![Image size](https://images.microbadger.com/badges/image/phpearth/pandoc.svg)](https://microbadger.com/images/phpearth/pandoc "Image size") [![Docker Automated build](https://img.shields.io/docker/automated/phpearth/pandoc.svg)](https://hub.docker.com/r/phpearth/pandoc/)
+[![Image size](https://images.microbadger.com/badges/image/phpearth/pandoc.svg)](https://microbadger.com/images/phpearth/pandoc "Image size") [![Docker Automated build](https://img.shields.io/docker/automated/phpearth/pandoc.svg)](https://hub.docker.com/r/phpearth/pandoc/) [![Build Status](https://travis-ci.org/php-earth/docker-pandoc.svg?branch=master)](https://travis-ci.org/php-earth/docker-pandoc)
 
 Pandoc Docker image
 

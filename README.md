@@ -10,7 +10,7 @@ Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
 ## Features
 
-* [Pandoc](http://pandoc.org/) 2.0.0.1
+* [Pandoc](http://pandoc.org/) 2.0.2
 * TeX Live Debian package with various selection of the TeX Live packages
 * Debian Stretch Slim
 

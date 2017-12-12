@@ -14,3 +14,8 @@ trim_trailing_whitespace = false
 [{*.yml,hooks/build,tests/test-all,tests/**/test}]
 indent_style = space
 indent_size = 2
+
+[Makefile]
+indent_style = tab
+indent_size = 4
+tab_width = 4

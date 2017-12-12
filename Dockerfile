@@ -4,7 +4,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV PANDOC_VER=2.0.2
+ENV PANDOC_VER=2.0.4
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-url="https://github.com/php-earth/docker-pandoc.git" \
@@ -24,6 +24,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     texlive-luatex \
     lmodern \
     netbase \
+    fonts-lato \
     && cd /opt && wget https://github.com/jgm/pandoc/releases/download/$PANDOC_VER/pandoc-$PANDOC_VER-1-amd64.deb \
     && dpkg -i pandoc-$PANDOC_VER-1-amd64.deb \
     && apt-get -y autoremove && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /opt/*

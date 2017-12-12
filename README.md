@@ -4,13 +4,11 @@
 
 Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
-<div align="center">
-  <img src="https://cdn.rawgit.com/php-earth/logo/master/svg/indigo.svg" width="300">
-</div>
+![PHP.earth](https://cdn.rawgit.com/php-earth/logo/master/svg/indigo_300x300.svg "PHP.earth")
 
 ## Features
 
-* [Pandoc](http://pandoc.org/) 2.0.2
+* [Pandoc](http://pandoc.org/)
 * TeX Live Debian package with various selection of the TeX Live packages
 * Debian Stretch Slim
 

@@ -9,6 +9,11 @@ All notable changes to this project will be documented in this file. This projec
 
 * ...
 
+## [0.0.4] 2017-12-12
+
+* Added Lato fonts
+* Pandoc 2.0.4
+
 ## [0.0.3] 2017-11-13
 
 * Pandoc 2.0.2

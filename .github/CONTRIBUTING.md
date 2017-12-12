@@ -60,5 +60,9 @@ version (e.g. 1.x.y) is released by the following release process:
 
 * **3. Docker images**
 
-  With a new tag release, Docker images are build automatically on
-  [Docker Hub](https://hub.docker.com/r/phpearth/pandoc/).
+  With a new tag release, build and push Docker images to
+  [Docker Hub](https://hub.docker.com/r/phpearth/pandoc/):
+
+  ```bash
+  make build-and-push
+  ```

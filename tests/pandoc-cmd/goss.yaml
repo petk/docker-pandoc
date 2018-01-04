@@ -1,12 +1,10 @@
 package:
   pandoc:
     installed: true
-    versions:
-    - 2.0.4-1
 command:
   pandoc -v:
     exit-status: 0
     stdout:
-    - 'pandoc 2.0.4'
+    - 'pandoc 2.0.6'
     stderr: []
     timeout: 10000

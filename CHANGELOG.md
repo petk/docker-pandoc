@@ -5,8 +5,9 @@ All notable changes to this project will be documented in this file. This projec
 [Semantic Versioning](http://semver.org/).
 
 
-## [UNREALEASED] 2017-01-01
+## [UNREALEASED] 2018-01-01
 
+* Pandoc 2.0.6
 * ...
 
 ## [0.0.4] 2017-12-12

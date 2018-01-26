@@ -9,6 +9,10 @@ All notable changes to this project will be documented in this file. This projec
 
 * ...
 
+## [0.0.6] 2018-01-26
+
+* Pandoc 2.1.1
+
 ## [0.0.5] 2018-01-04
 
 * Pandoc 2.0.6

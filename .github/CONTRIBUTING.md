@@ -56,7 +56,7 @@ version (e.g. 1.x.y) is released by the following release process:
 
 * **2. Tag a new release**
 
-  Tag a new version on [GitHub](https://github.com/php-earth/docker-pandoc/releases).
+  Tag a new version on [GitHub](https://github.com/phpearth/docker-pandoc/releases).
 
 * **3. Docker images**
 

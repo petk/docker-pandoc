@@ -9,7 +9,7 @@ help:
 test: ## Run all tests; Usage: make test [t="<test-folder-1> <test-folder-2> ..."]
   @./tests/test-all
 
-build: ## Build image; make build TAG="7.0-cli"
+build: ## Build image; make build TAG="latest"
   @docker build --no-cache --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` --build-arg VCS_REF=`git rev-parse --short HEAD` -t phpearth/pandoc:$(TAG) -f Dockerfile .
 
 build-all: ## Build all images

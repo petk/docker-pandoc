@@ -1,10 +1,8 @@
 # Pandoc Docker Image
 
-[![Image size](https://images.microbadger.com/badges/image/phpearth/pandoc.svg)](https://microbadger.com/images/phpearth/pandoc "Image size") [![Docker Automated build](https://img.shields.io/docker/automated/phpearth/pandoc.svg)](https://hub.docker.com/r/phpearth/pandoc/) [![Build Status](https://travis-ci.org/phpearth/docker-pandoc.svg?branch=master)](https://travis-ci.org/phpearth/docker-pandoc)
+[![Image size](https://images.microbadger.com/badges/image/petk/pandoc.svg)](https://microbadger.com/images/petk/pandoc "Image size") [![Docker Automated build](https://img.shields.io/docker/automated/petk/pandoc.svg)](https://hub.docker.com/r/petk/pandoc/) [![Build Status](https://travis-ci.org/petk/docker-pandoc.svg?branch=master)](https://travis-ci.org/petk/docker-pandoc)
 
 Docker image for [Pandoc](http://pandoc.org/), a universal document converter
-
-![PHP.earth](https://cdn.rawgit.com/phpearth/logo/master/svg/indigo_300x300.svg "PHP.earth")
 
 ## Features
 
@@ -14,16 +12,16 @@ Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
 ## Tags
 
-* [`latest` (*Dockerfile*)](https://github.com/phpearth/docker-pandoc/tree/master/Dockerfile) - Debian Jessie Slim, Pandoc
+* [`latest` (*Dockerfile*)](https://github.com/petk/docker-pandoc/tree/master/Dockerfile) - Debian Bullseye Slim, Pandoc
 
 ## Quick usage
 
 Create PDF from Markdown file:
 
 ```bash
-docker run -it --rm -v `pwd`:/opt phpearth/pandoc pandoc document.md -o document.pdf
+docker run -it --rm -v `pwd`:/opt petk/pandoc pandoc document.md -o document.pdf
 ```
 
 ## License and contributing
 
-[Contributions](https://github.com/phpearth/docker-pandoc/blob/master/CONTRIBUTING.md) are most welcome. This repository is released under the [MIT license](https://github.com/phpearth/docker-pandoc/blob/master/LICENSE).
+[Contributions](https://github.com/petk/docker-pandoc/blob/master/CONTRIBUTING.md) are most welcome. This repository is released under the [MIT license](https://github.com/petk/docker-pandoc/blob/master/LICENSE).

@@ -56,12 +56,12 @@ version (e.g. 1.x.y) is released by the following release process:
 
 * **2. Tag a new release**
 
-  Tag a new version on [GitHub](https://github.com/phpearth/docker-pandoc/releases).
+  Tag a new version on [GitHub](https://github.com/petk/docker-pandoc/releases).
 
 * **3. Docker images**
 
   With a new tag release, build and push Docker images to
-  [Docker Hub](https://hub.docker.com/r/phpearth/pandoc/):
+  [Docker Hub](https://hub.docker.com/r/petk/pandoc/):
 
   ```bash
   make build-and-push

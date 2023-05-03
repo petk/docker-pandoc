@@ -5,9 +5,16 @@ All notable changes to this project will be documented in this file. This projec
 [Semantic Versioning](http://semver.org/).
 
 
-## [UNREALEASED] 2018-01-01
+## [UNREALEASED] 2023-01-01
 
 * ...
+* Pandoc 3.1.2.
+* Docker image based on Debian Bullseye.
+* Image moved to @petk GitHub account.
+* Docs have been updated.
+* Code of Conduct based on Contributor Covenant Code of Conduct v2.1.
+* New Docker image location on Docker Hub.
+* Makefile fixed for latest GNU Make versions.
 
 ## [0.0.7] 2018-08-04
 

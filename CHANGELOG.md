@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file. This projec
 * Code of Conduct based on Contributor Covenant Code of Conduct v2.1.
 * New Docker image location on Docker Hub.
 * Makefile fixed for latest GNU Make versions.
+* Added GitHub actions.
 
 ## [0.0.7] 2018-08-04
 

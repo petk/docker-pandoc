@@ -1,6 +1,6 @@
 # Pandoc Docker Image
 
-[![Image size](https://images.microbadger.com/badges/image/petk/pandoc.svg)](https://microbadger.com/images/petk/pandoc "Image size") [![Docker Automated build](https://img.shields.io/docker/automated/petk/pandoc.svg)](https://hub.docker.com/r/petk/pandoc/) [![Build Status](https://travis-ci.org/petk/docker-pandoc.svg?branch=master)](https://travis-ci.org/petk/docker-pandoc)
+[![Docker Automated build](https://img.shields.io/docker/automated/petk/pandoc.svg)](https://hub.docker.com/r/petk/pandoc/)
 
 Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
@@ -8,7 +8,7 @@ Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
 * [Pandoc](http://pandoc.org/)
 * TeX Live Debian package with various selection of the TeX Live packages
-* Debian Stretch Slim
+* Debian Bullseye Slim
 
 ## Tags
 
@@ -18,7 +18,7 @@ Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
 Create PDF from Markdown file:
 
-```bash
+```sh
 docker run -it --rm -v `pwd`:/opt petk/pandoc pandoc document.md -o document.pdf
 ```
 

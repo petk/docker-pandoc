@@ -1,5 +1,6 @@
 # Pandoc Docker Image
 
+![Test workflow](https://github.com/petk/docker-pandoc/actions/workflows/test.yaml/badge.svg)
 [![Docker Automated build](https://img.shields.io/docker/automated/petk/pandoc.svg)](https://hub.docker.com/r/petk/pandoc/)
 
 Docker image for [Pandoc](http://pandoc.org/), a universal document converter

@@ -9,13 +9,13 @@ test: ## Run all tests; Usage: make test [t="<test-folder-1> <test-folder-2> ...
 	@./tests/test-all
 
 build: ## Build image; make build TAG="latest"
-	@docker build --no-cache --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` --build-arg VCS_REF=`git rev-parse --short HEAD` -t petk/pandoc:$(TAG) -f Dockerfile .
+	@docker build --no-cache --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` --build-arg VCS_REF=`git rev-parse --short HEAD` --tag petk/pandoc:$(TAG) --file Dockerfile .
 
 build-all: ## Build all images
 	make build TAG="latest"
 
-push-all: ## Push all built images to Docker Hub
-	@docker push petk/pandoc:latest
+push: ## Push built image to Docker Hub
+	@docker push petk/pandoc:$(TAG)
 
 build-and-push: ## Build all images and push them to Docker Hub
 	make build-all

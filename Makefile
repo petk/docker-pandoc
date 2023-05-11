@@ -19,7 +19,7 @@ push: ## Push built image to Docker Hub
 
 build-and-push: ## Build all images and push them to Docker Hub
 	make build-all
-	make push-all
+	make push
 
 clean: ## Clean all containers and images on the system
 	-@docker ps -a -q | xargs docker rm -f

@@ -7,14 +7,14 @@ this repository.
 * Create a separate branch, for instance `patch-1` so you will not need to rebase
   your fork if your master branch is merged
 
-  ```bash
+  ```sh
   git clone git@github.com:your_username/docker-pandoc
   cd docker-pandoc
   git checkout -b patch-1
   ```
 * Make changes, commit them and push to your fork
 
-  ```bash
+  ```sh
   git add .
   git commit -m "Fix bug"
   git push origin patch-1
@@ -63,6 +63,6 @@ version (e.g. 1.x.y) is released by the following release process:
   With a new tag release, build and push Docker images to
   [Docker Hub](https://hub.docker.com/r/petk/pandoc/):
 
-  ```bash
+  ```sh
   make build-and-push
   ```

@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file. This projec
 ## [UNREALEASED] 2023-01-01
 
 * ...
+
+## [1.0.0] 2023-05-11
+
 * Pandoc 3.1.2.
 * Docker image based on Debian Bullseye.
 * Image moved to @petk GitHub account.

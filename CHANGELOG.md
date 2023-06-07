@@ -4,10 +4,13 @@ All notable changes to this project will be documented in this file. This projec
 [keeps a CHANGELOG](http://keepachangelog.com/) and adheres to
 [Semantic Versioning](http://semver.org/).
 
-
 ## [UNREALEASED] 2023-01-01
 
 * ...
+
+## [1.0.1] 2023-06-07
+
+* Pandoc 3.1.3
 
 ## [1.0.0] 2023-05-11
 

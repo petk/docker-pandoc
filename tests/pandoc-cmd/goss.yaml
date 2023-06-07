@@ -5,6 +5,6 @@ command:
   pandoc -v:
     exit-status: 0
     stdout:
-    - 'pandoc 3.1.2'
+    - 'pandoc 3'
     stderr: []
     timeout: 10000

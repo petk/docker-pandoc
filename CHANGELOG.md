@@ -1,18 +1,19 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. This project
-[keeps a CHANGELOG](http://keepachangelog.com/) and adheres to
-[Semantic Versioning](http://semver.org/).
+All notable changes to this project will be documented in this file.
 
-## [UNREALEASED] 2023-01-01
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [UNREALEASED] - YYYY-MM-DD
 
 * ...
 
-## [1.0.1] 2023-06-07
+## [1.0.1] - 2023-06-07
 
 * Pandoc 3.1.3
 
-## [1.0.0] 2023-05-11
+## [1.0.0] - 2023-05-11
 
 * Pandoc 3.1.2.
 * Docker image based on Debian Bullseye.
@@ -23,30 +24,30 @@ All notable changes to this project will be documented in this file. This projec
 * Makefile fixed for latest GNU Make versions.
 * Added GitHub actions.
 
-## [0.0.7] 2018-08-04
+## [0.0.7] - 2018-08-04
 
 * Pandoc 2.2.2.1
 
-## [0.0.6] 2018-01-26
+## [0.0.6] - 2018-01-26
 
 * Pandoc 2.1.1
 
-## [0.0.5] 2018-01-04
+## [0.0.5] - 2018-01-04
 
 * Pandoc 2.0.6
 
-## [0.0.4] 2017-12-12
+## [0.0.4] - 2017-12-12
 
 * Pandoc 2.0.4
 
-## [0.0.3] 2017-11-13
+## [0.0.3] - 2017-11-13
 
 * Pandoc 2.0.2
 
-## [0.0.2] 2017-11-01
+## [0.0.2] - 2017-11-01
 
 * Pandoc 2.0.0.1
 
-## [0.0.1] 2017-10-25
+## [0.0.1] - 2017-10-25
 
 * Initial commits

@@ -5,7 +5,7 @@ this repository.
 
 * Fork this repository over GitHub
 * Create a separate branch, for instance `patch-1` so you will not need to rebase
-  your fork if your master branch is merged
+  your fork if your `main` branch is merged
 
   ```sh
   git clone git@github.com:your_username/docker-pandoc

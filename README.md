@@ -13,7 +13,7 @@ Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
 ## Tags
 
-* [`latest` (*Dockerfile*)](https://github.com/petk/docker-pandoc/tree/master/Dockerfile) - Debian Bullseye Slim, Pandoc
+* [`latest` (*Dockerfile*)](https://github.com/petk/docker-pandoc/tree/main/Dockerfile) - Debian Bullseye Slim, Pandoc
 
 ## Quick usage
 
@@ -25,4 +25,4 @@ docker run -it --rm -v `pwd`:/opt petk/pandoc pandoc document.md -o document.pdf
 
 ## License and contributing
 
-[Contributions](https://github.com/petk/docker-pandoc/blob/master/CONTRIBUTING.md) are most welcome. This repository is released under the [MIT license](https://github.com/petk/docker-pandoc/blob/master/LICENSE).
+[Contributions](https://github.com/petk/docker-pandoc/blob/main/CONTRIBUTING.md) are most welcome. This repository is released under the [MIT license](https://github.com/petk/docker-pandoc/blob/main/LICENSE).

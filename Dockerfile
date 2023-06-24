@@ -4,7 +4,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV PANDOC_VER=3.1.3
+ENV PANDOC_VER=3.1.4
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-url="https://github.com/petk/docker-pandoc.git" \

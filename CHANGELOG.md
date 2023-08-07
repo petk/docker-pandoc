@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * ...
 
+## [1.0.5] - 2023-08-07
+
+### Added
+
+* Pandoc 3.1.6.1
+
 ## [1.0.4] - 2023-07-21
 
 ### Added

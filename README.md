@@ -9,11 +9,11 @@ Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
 * [Pandoc](http://pandoc.org/)
 * TeX Live Debian package with various selection of the TeX Live packages
-* Debian Bullseye Slim
+* Debian Trixie Slim
 
 ## Tags
 
-* [`latest` (*Dockerfile*)](https://github.com/petk/docker-pandoc/tree/main/Dockerfile) - Debian Bullseye Slim, Pandoc
+* [`latest` (*Dockerfile*)](https://github.com/petk/docker-pandoc/tree/main/Dockerfile) - Debian Trixie Slim, Pandoc
 
 ## Quick usage
 

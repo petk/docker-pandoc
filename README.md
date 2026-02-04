@@ -5,6 +5,11 @@
 
 Docker image for [Pandoc](http://pandoc.org/), a universal document converter
 
+> [!NOTE]
+> There are now also
+> [upstream Pandoc Docker images](https://hub.docker.com/u/pandoc) available,
+> making this repository obsolete.
+
 ## Features
 
 * [Pandoc](http://pandoc.org/)
